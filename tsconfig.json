@@ -1,28 +1,30 @@
 {
     "compilerOptions": {
-        "allowJs": true,
-        "esModuleInterop": true,
-        "moduleDetection": "force",
-        "resolveJsonModule": true,
-        "skipLibCheck": true,
-        "allowSyntheticDefaultImports": true,
-        "target": "es2022",
-
-        "noUncheckedIndexedAccess": true,
-        "strict": true,
-
-        "moduleResolution": "NodeNext",
-        "module": "NodeNext",
         "outDir": "dist",
-        "sourceMap": true,
-
-        "lib": ["es2022", "DOM", "DOM.Iterable"],
-
-        "jsx": "react-jsx"
-    },
-    "ts-node": {
-        "compilerOptions": {
-            "module": "CommonJS"
-        }
-    }
+		"module": "ESNext",
+		"target": "es5",
+		"jsx": "react-jsx",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"lib": ["es2022", "DOM", "DOM.Iterable"],
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"paths": {
+			"assets/*": ["./src/assets/*"],
+			"pages/*": ["./src/pages/*"],
+			"store/*": ["./src/store/*"],
+			"components/*": ["./src/components/*"],
+			"utils/*": ["./src/utils/*"],
+			"hooks/*": ["./src/hooks/*"],
+		}
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
 }
