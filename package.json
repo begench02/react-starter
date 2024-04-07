@@ -15,6 +15,12 @@
 		"react-router-dom": "^6.22.0"
 	},
 	"devDependencies": {
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+<<<<<<< HEAD
+		"react-refresh-typescript": "^2.0.9",
+		"react-refresh": "^0.14.0",
+=======
+>>>>>>> 1c32579dc3ea2de49718fe6bffc6ad747f351a93
 		"@types/react": "^18.2.55",
 		"@types/react-dom": "^18.2.18",
 		"@types/webpack": "^5.28.5",
@@ -37,6 +43,8 @@
 		"postcss": "^8.4.35",
 		"postcss-loader": "^8.1.0",
 		"prettier": "^3.2.5",
+		"react-refresh": "^0.14.0",
+		"react-refresh-typescript": "^2.0.9",
 		"sass": "^1.70.0",
 		"sass-loader": "^14.1.0",
 		"ts-loader": "^9.5.1",
