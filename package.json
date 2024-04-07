@@ -16,11 +16,8 @@
 	},
 	"devDependencies": {
 		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
-<<<<<<< HEAD
 		"react-refresh-typescript": "^2.0.9",
 		"react-refresh": "^0.14.0",
-=======
->>>>>>> 1c32579dc3ea2de49718fe6bffc6ad747f351a93
 		"@types/react": "^18.2.55",
 		"@types/react-dom": "^18.2.18",
 		"@types/webpack": "^5.28.5",
