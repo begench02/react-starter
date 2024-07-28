@@ -36,7 +36,7 @@ export const webpackCommon: Configuration = {
 				use: [
 					{ loader: MiniCssExtractPlugin.loader },
 					{ loader: 'css-modules-typescript-loader' },
-					{ loader: 'css-loader', options: { modules: true } },
+					{ loader: 'css-loader' },
 					{ loader: 'postcss-loader' },
 					{
 						loader: 'sass-loader',
